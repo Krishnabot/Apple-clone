@@ -5,36 +5,47 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-/* --NavBar-- */
-header {
-  width: 100%;
-  height: 80vh;
-  color: white;
-  background: url(/img/main-img.jpg);
-  background-size: cover;
-  background-position: right bottom;
+body a {
+  text-decoration: none;
+}
+body p a {
+  color: #08c;
+}
+nav a {
+  font-size: 1.5em;
 }
 
-header nav {
+footer a {
+  color: #08c;
+}
+
+header {
+  color: white;
+  width: 100%;
+  height: 80vh;
+  background: url("/img/main-img.jpg");
+  background-position: right bottom;
+  background-size: cover;
+}
+
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 16px;
   font-weight: 100;
   font-family: "Lato", sans-serif;
 }
 
-header nav ul {
+nav ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  list-style: none;
-  border-radius: 4px;
-  border: 1px solid grey;
-  font-size: 15px;
-  font-weight: bolder;
   margin: 7em;
-  text-decoration: none;
+  list-style: none;
+  font-weight: bolder;
+  font-size: 15px;
+  border: 0.8px solid #888;
+  border-radius: 4px;
   background: -webkit-gradient(
       linear,
       0 0,
@@ -49,33 +60,30 @@ header nav ul {
     -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
-header nav li {
-  margin: -2px 0;
-  padding: 8px 25px;
-  border-right: 1px solid #4d4b4b;
-  font-size: 12px;
+footer li {
+  display: inline;
+  padding: 0 8px;
 }
-header nav ul li:last-child {
+
+.nav-menu li {
+  margin: -3px 0;
+  padding: 8px 30px;
+  border-right: 1px solid #4d4b4b;
+}
+
+nav ul li:last-child {
   border: none;
 }
 
-header nav ul li :hover {
+nav ul li:hover {
   background: rgba(0, 0, 0, 0.3);
 }
-header nav ul li a {
-  font-size: 15px;
+
+.headline {
+  font-family: "Roboto", sans-serif;
 }
 
-header nav ul li .nav-search {
-  width: 100%;
-  margin-bottom: 10px;
-}
-header nav ul li .nav-search i {
-  position: absolute;
-  min-width: 40px;
-  padding: 4px;
-}
-header nav ul li .search-box {
+.search-bar {
   background: linear-gradient(
     to bottom,
     rgb(100, 100, 100) 0%,
@@ -86,10 +94,76 @@ header nav ul li .search-box {
   border-radius: 25px;
   width: 100px;
 }
-a {
-  text-decoration: none;
+
+.subhead {
+  width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 350px;
 }
-.container {
+
+.subhead-1 {
+  width: 1000px;
+  height: 112px;
+}
+
+.subhead-2 {
+  margin-top: -29px;
+  width: 1000px;
+  height: 86px;
+}
+
+.subhead-3 {
+  margin-top: 20px;
   width: 980px;
-  margin: 0 350px;
+}
+
+.subhead-3:hover {
+  background: transparent url("/img/your_verse_cta.png") bottom no-repeat;
+}
+
+.thumbnails-container {
+  width: 100%;
+  display: flex;
+}
+
+.thumbnails-container a {
+  display: flex;
+  height: auto;
+}
+
+.thumbnails {
+  width: 25%;
+  flex: 1;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  color: #4d4b4b;
+  font-size: 10px;
+  padding: 15px;
+  margin: 0 -30px;
+}
+
+.copyright {
+  padding: 15px 80px;
+  color: #4d4b4b;
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.search-icons i {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 4px;
+  min-width: 40px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }

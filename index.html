@@ -1,133 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Apple Clone</title>
+    <title>Apple clone</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
     <meta name="author" content="Krishna Prasad Acharya @krishnabot" />
     <meta
       name="decription"
       content="Apple Home page clone for Microverse Projects"
     />
-    <!--Icons Used-->
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!--Icons-->
     <script src="https://use.fontawesome.com/3b2ea06e46.js"></script>
   </head>
   <body>
-    <!--Navbar -->
     <header>
       <nav>
-        <ul>
-          <li>
-            <a href="#"><i class="fa fa-apple icon-apple"></i></a>
-          </li>
-          <li class="nav-text"><a href="#">Store</a></li>
-          <li class="nav-text"><a href="#">Mac</a></li>
-          <li class="nav-text"><a href="#">iPod</a></li>
-          <li class="nav-text"><a href="#">iPhone</a></li>
-          <li class="nav-text"><a href="#">iPad</a></li>
-          <li class="nav-text"><a href="#">iTunes</a></li>
-          <li class="nav-text"><a href="#">Support</a></li>
-          <li class="nav-text"></li>
-          <li class="nav-search">
+        <ul class="nav-menu">
+          <li><i class="fa fa-apple" aria-hidden="true"></i></li>
+          <li>Store</li>
+          <li>Mac</li>
+          <li>iPod</li>
+          <li>iPhone</li>
+          <li>iPad</li>
+          <li>iTunes</li>
+          <li>Support</li>
+          <li class="search-icons">
             <i class="fa fa-search icon" aria-hidden="true"></i>
-            <input type="text" class="search-box" />
+            <input class="search-bar" type="text" />
           </li>
         </ul>
-        <section class="container">
-          <!--Header-->
-          <div>
-            <div>
-              <a href="#">
-                <img src="img/your_verse_head.png" alt="what will your verse be"
-              /></a>
-            </div>
-            <div>
-              <a href="#">
-                <img
-                  src="img/your_verse_subhead.png"
-                  alt="Everyone has something to share. See how
-                    people are using iPad in their unique ways to add to the world's story"
-              /></a>
-            </div>
-            <div>
-              <a href="#">
-                <img
-                  src="img/your_verse_cta.png"
-                  alt="Watch the Your Verse film and explore the stories"
-              /></a>
-            </div>
-          </div>
-        </section>
+        <div class="subhead">
+          <img
+            class="subhead-1"
+            src="/img/your_verse_head.png"
+            alt="What will your verse be?"
+          />
+          <img
+            class="subhead-2"
+            src="/img/your_verse_subhead.png"
+            alt="Everyone has something to share. See how people are using iPad in their unique ways to add to the world’s story."
+          />
+          <img
+            class="subhead-3"
+            src="/img/your_verse_cta.png"
+            alt="watch the Your verse film and explore stories"
+          />
+        </div>
       </nav>
     </header>
+    <div class="thumbnails-container">
+      <a href="#"
+        ><img class="thumbnails" src="/img/promo_iphone5s.jpg" alt="iPhone 5S"
+      /></a>
 
-    <!--Main-->
-    <main>
-      <!--Promo-->
-      <div class="promo">
-        <section class="promo-5s">
-          <a href="#"> <img src="img/promo_iphone5s.jpg" alt="iphone 5s"/></a>
-        </section>
-        <section class="promo-5c">
-          <a href="#"> <img src="img/promo_iphone5c.jpg" alt="iphone 5c"/></a>
-        </section>
-        <section class="promo-mac-30years">
-          <a href="#"
-            ><img
-              src="img/promo_30_years.jpg"
-              alt="Happy Birthday, Mac Explore 30 years of innovation on the Mac"
-          /></a>
-        </section>
-        <section class="promo-suppliers-responsibility">
-          <a href="#"
-            ><img
-              src="img/promo_supplier_responsibility.jpg"
-              alt="Supplier responsibility The Latest results of our worldwide efforts"
-          /></a>
-        </section>
-      </div>
-    </main>
-    ]
+      <a href="#"
+        ><img class="thumbnails" src="/img/promo_iphone5c.jpg" alt="iPhone 5C"
+      /></a>
 
-    <!--Footer-->
+      <a href="#"
+        ><img
+          class="thumbnails"
+          src="/img/promo_30_years.jpg"
+          alt="Happy Birthday Mac "
+      /></a>
+
+      <a href="#"
+        ><img
+          class="thumbnails"
+          src="/img/promo_supplier_responsibility.jpg"
+          alt="Suppliers responsibility"
+      /></a>
+    </div>
     <footer>
-      <div class="wrapper">
-        <section class="wrap-container">
-          <p>
-            Shop the
-            <a href="#" class="foo-link">Apple Online Store</a>
-            (1-800-MY-APPLE), visit an
-            <a href="#" class="foo-link">Apple Retail Store</a>, or find a
-            <a href="#" class="foo-link">reseller</a>
-          </p>
-          <nav>
-            <ul class="">
-              <li><a href="" class="foo-link">Site Map</a></li>
-              <li><a href="" class="foo-link">Hot News</a></li>
-              <li><a href="" class="foo-link">RSS feed</a></li>
-              <li><a href="" class="foo-link">Media Info</a></li>
-              <li><a href="" class="foo-link">Environment</a></li>
-              <li><a href="" class="foo-link">Job Oppertunity</a></li>
-              <li><a href="" class="foo-link">Contact Us</a></li>
-              <li>
-                <a href="#"
-                  ><img src="img/usa.png" alt="language English USA"
-                /></a>
-              </li>
-            </ul>
-          </nav>
-        </section>
-        <section>
-          <p>Copyright &copy; 2014 Apple Inc. All rights reserved.</p>
-          <ul class="">
-            <li class="foo-link">Terms of use</li>
-            <li class="foo-link">Privacy Policy</li>
-          </ul>
-        </section>
-      </div>
+      <p>
+        Shop the Shop the <a href="#">Apple Online Store</a> (1-800-MY-APPLE),
+        visit an <a href="#">Apple Retail Store</a>, or find a
+        <a href="#">reseller</a>.
+      </p>
+      <ul>
+        <li><a href="#">Site map</a></li>
+        <li><a href="#">Hot news</a></li>
+        <li><a href="#">Rss feed</a></li>
+        <li><a href="#">Media info</a></li>
+        <li><a href="#">Environment</a></li>
+        <li><a href="#">Job Opportunities</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
     </footer>
+    <p class="copyright">
+      Copyright © 2014 Apple Inc. All rights reserved.
+      <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+    </p>
   </body>
 </html>
