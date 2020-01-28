@@ -2,7 +2,7 @@
 
 old version of apple.com clone for Microverse CSS Course
 
-Hello! I'm Krishna and this is my **PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS** from the curriculum of The **[Microverse]** (https://www.microverse.org/)
+Hello! I'm Krishna and this is my **PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS** from the curriculum of The **Microverse** [global School for developpers](https://www.microverse.org/)
 
 Link for the [curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients?ref=lnav).
 
