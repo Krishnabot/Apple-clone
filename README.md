@@ -2,9 +2,11 @@
 
 old version of apple.com clone for Microverse CSS Course
 
-Hello! I'm Krishna and this is my **PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS** from the curriculum of The **Microverse**[Global School for Developers](https://www.microverse.org/)
-[curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients?ref=lnav).
-[here](https://web.archive.org/web/20140301004610/http://www.apple.com/) is the Original page .
+Hello! I'm Krishna and this is my **PROJECT: BUILDING WITH BACKGROUNDS AND GRADIENTS** from the curriculum of The **[Microverse]** (https://www.microverse.org/)
+
+Link for the [curriculum](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients?ref=lnav).
+
+[Here](https://web.archive.org/web/20140301004610/http://www.apple.com/) is the original page .
 
 ![Screenshot_2020-01-28 Apple clone](https://user-images.githubusercontent.com/40334904/73247369-d6296580-41d8-11ea-849e-3622cc749836.PNG)
 
