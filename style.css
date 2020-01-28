@@ -7,14 +7,20 @@
 body a {
   text-decoration: none;
 }
+
+nav a {
+  font-size: 1.5em;
+}
+
+footer a {
+  color: #08c;
+}
+
 body p a {
   color: #08c;
 }
 
 /* -- Nav -- */
-nav a {
-  font-size: 1.5em;
-}
 
 header {
   color: white;
@@ -43,7 +49,8 @@ nav ul {
   font-size: 15px;
   border: 0.8px solid #888;
   border-radius: 4px;
-  background: -webkit-gradient(
+  background:
+    -webkit-gradient(
       linear,
       0 0,
       0 100%,
@@ -55,6 +62,13 @@ nav ul {
     -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))),
     no-repeat 50% 50%,
     -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+footer li {
+  display: inline;
+  padding-left: 0.6em;
+  margin-left: 0.6em;
+  border-left: 1px solid #ccc;
 }
 
 .nav-menu li {
@@ -73,13 +87,14 @@ nav ul li:hover {
 
 .search-bar {
   border: inherit;
-  background: linear-gradient(
-    to bottom,
-    rgb(100, 100, 100) 0%,
-    rgba(89, 89, 89, 1) 50%,
-    rgba(130, 130, 130, 1) 52%,
-    rgba(130, 130, 130, 1) 100%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      rgb(100, 100, 100) 0%,
+      rgba(89, 89, 89, 1) 50%,
+      rgba(130, 130, 130, 1) 52%,
+      rgba(130, 130, 130, 1) 100%
+    );
   border-radius: 25px;
   width: 100px;
 }
@@ -109,7 +124,8 @@ nav ul li:hover {
 }
 
 .subhead-3:hover {
-  background: transparent url("/img/your_verse_cta.png") underline bottom
+  background:
+    transparent url("/img/your_verse_cta.png") underline bottom
     no-repeat;
   cursor: pointer;
 }
@@ -158,15 +174,7 @@ footer {
   padding: 4px;
   min-width: 40px;
 }
-footer a {
-  color: #08c;
-}
-footer li {
-  display: inline;
-  padding-left: 0.6em;
-  margin-left: 0.6em;
-  border-left: 1px solid #ccc;
-}
+
 footer ul li a img {
   width: 16px;
   height: 16px;
