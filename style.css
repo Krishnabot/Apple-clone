@@ -11,6 +11,7 @@ body a {
 body p a {
   color: #08c;
 }
+
 /* -- Nav -- */
 nav a {
   font-size: 1.5em;
@@ -83,6 +84,7 @@ nav ul li:hover {
   border-radius: 25px;
   width: 100px;
 }
+
 /* --Content subhead -- */
 
 .subhead {
@@ -112,6 +114,7 @@ nav ul li:hover {
     no-repeat;
   cursor: pointer;
 }
+
 /* -- Thumbnail -- */
 .thumbnails-container {
   width: 100%;
@@ -127,6 +130,7 @@ nav ul li:hover {
   width: 25%;
   flex: 1;
 }
+
 /* --Footer -- */
 footer {
   display: flex;
