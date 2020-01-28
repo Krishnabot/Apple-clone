@@ -28,7 +28,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-https://krishnabot.github.io/NYTimes-Clone/
+https://krishnabot.github.io/Apple-clone/
 
 ## Authors
 
