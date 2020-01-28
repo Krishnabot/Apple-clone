@@ -79,8 +79,14 @@ footer li {
   border-left: 1px solid #ccc;
 }
 
+footer > ul > li {
+  padding-left: 0.6em;
+  margin-left: 0.6em;
+  border-left: 1px solid #ccc;
+}
+
 .nav-menu li {
-  margin: -3px 0;
+  margin: 0 0;
   padding: 8px 30px;
   border-right: 1px solid #4d4b4b;
 }
@@ -156,20 +162,55 @@ nav ul li:hover {
 
 /* --Footer -- */
 footer {
-  display: flex;
-  justify-content: space-around;
+  position: absolute;
+  top: 740px;
+  bottom: 0;
   width: 100%;
-  color: #4d4b4b;
-  font-size: 10px;
-  padding: 15px;
-  margin: 0 -30px;
+  height: 90px;
+  min-width: 980px;
+  font-size: 0.627em;
+  line-height: 1.2em;
+  color: #6e6e6e;
 }
 
-.copyright {
-  padding: 15px 80px;
-  color: #4d4b4b;
-  font-size: 10px;
-  margin-bottom: 20px;
+.footer-wrapper {
+  width: 980px;
+  padding: 1em 0 2.6em;
+  margin: 0 auto;
+}
+
+.footer-wrapper section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-wrapper-container {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  padding: 0;
+  list-style: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+footer ul li :hover {
+  text-decoration: underline;
+}
+
+.first-footer-li {
+  padding-left: 0;
+  margin-left: 0;
+  border-left: none;
 }
 
 .search-icons i {
@@ -186,8 +227,4 @@ footer {
 footer ul li a img {
   width: 16px;
   height: 16px;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
