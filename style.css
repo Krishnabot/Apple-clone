@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font:
@@ -10,6 +9,10 @@
     Geneva,
     Verdana,
     sans-serif;
+}
+
+body {
+  box-sizing: border-box;
 }
 
 body a {
@@ -193,22 +196,25 @@ footer {
 }
 
 footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   height: 12px;
   padding: 0;
   list-style: none;
+  line-height: 10px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+footer p a :hover {
+  text-decoration: underline;
 }
 
 footer ul li :hover {
   text-decoration: underline;
 }
 
-.first-footer-li {
+.first-footer-link {
   padding-left: 0;
   margin-left: 0;
   border-left: none;
