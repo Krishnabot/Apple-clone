@@ -128,25 +128,28 @@ nav ul li:hover {
 }
 
 .subhead-1 {
+  background-image: url(https://web.archive.org/web/20140301004326im_/http://images.apple.com/home/images/your_verse_title_large.png);
   width: 1000px;
   height: 112px;
 }
 
 .subhead-2 {
-  margin-top: -29px;
+  background-image: url(https://web.archive.org/web/20140301004340im_/http://images.apple.com/home/images/your_verse_subhead_small.png);
+  margin-top: 30px;
+  margin-bottom: 20px;
   width: 1000px;
   height: 86px;
 }
 
 .subhead-3 {
-  margin-top: 20px;
+  background-image: url(https://web.archive.org/web/20140301004341im_/http://images.apple.com/home/images/cta_your_verse_27pt.png);
   width: 980px;
+  height: 32px;
+  margin-top: 15px;
 }
 
 .subhead-3:hover {
-  background:
-    transparent url("/img/your_verse_cta.png") underline bottom
-    no-repeat;
+  background: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/cta_your_verse_27pt.png') transparent bottom no-repeat;
   cursor: pointer;
 }
 
